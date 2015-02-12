@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>No title</title>
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./bootstrap-2.3.2/css/bootstrap.css">
+  
+    <style type="text/css" >
+        * {margin:0px; padding:0px;}
+        #x-rule {position: absolute; top:0px; left:-50px;}
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- <div id="x-rule"><img src="http://apollotang.com/cdn/lib/imgs/ruler_x_1083px.gif"></div> -->
+    <div id="message"></div>
+
+
+    <button type="submit" id = "mybtn1" class="btn">1</button>
+    <button type="submit" id = "mybtn2" class="btn">2</button>
+    <button type="submit" id = "mybtn3" class="btn">3</button>
+    <button type="submit" id = "mybtn4" class="btn">4</button>
+
+
+	<script src="localhost:8001/js/jquery-1.8.2.js"></script>
+	<script src="localhost:8001/bootstrap-2.3.2/js/bootstrap.js"></script>
+
+<script src="http://apollotang.com/cdn/lib/js/underscore-1.4.2.js"></script>
+<script src="http://apollotang.com/cdn/lib/js/backbone-0.9.2.js"></script>
+<script src="http://apollotang.com/cdn/lib/js/safe-console.js"></script>
+<script src="http://apollotang.com/cdn//lib/js/_o_/_o_0.0.1.js"></script>
+<!-- script>window.jQuery || document.write('<script src="http://localhost/sy/lib/js/jquery-1.7.1.min.js"><\/script>')</script-->
+
+
+<script type="text/javascript">
+console.log('jQuery version ' + jQuery().jquery);
+// - - - - - - - - - - - - - -
+
+console.log(Object);
+
+
+	var person= {};
+	Object.defineProperty( person, "name",	{ writable:false, configurable: true, value: '1'	});
+	console.log('1', person.name);	
+
+	person.name = '2';
+	console.log('2', person.name);
+	
+	Object.defineProperty( person, 	"name", 	{configurable: false, value: "3"});
+	console.log('3', person.name);
+	
+	person.name = '4';	
+	console.log('4', person.name);
+	
+	Object.defineProperty( person, 	"name",  {value: "5"});
+	console.log('5', person.name);
+	
+    person.name = "6";
+	console.log('6', person.name);
+
+
+        
+$('#mybtn1').on('click', function(){
+            
+});
+$('#mybtn2').on('click', function(){
+            
+});
+$('#mybtn3').on('click', function(){
+            
+});
+$('#mybtn4').on('click', function(){
+            
+});
+
+
+// - - - - - - - - - - - - - -
+</script>	
+</body>
+
+</html>

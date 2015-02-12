@@ -1,0 +1,2 @@
+#!/bin/sh
+http-server /c/a09/00s/05hw/_A1/server-library -p 8001 2>&1
