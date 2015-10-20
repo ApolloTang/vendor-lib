@@ -1,0 +1,1 @@
+/Users/apollotang/node_modules/babel/node_modules/babel-core/browser.js
