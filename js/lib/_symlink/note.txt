@@ -1,0 +1,1 @@
+ln -s /Users/apollotang/_c-not-sync/threejs-official/three.js/build/three.js /Users/apollotang/opt/vendor-lib/js/lib/_symlink/three.js
